@@ -1,8 +1,9 @@
 #!/bin/bash
 
-#set -Ee
+set -Ee
+set -o pipefail
+#set -u
 #set -xv
-#set -uo pipefail
 
 ## 脚本名称及路径
 SHELL_NAME=$(basename $0)
